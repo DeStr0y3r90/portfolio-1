@@ -1,0 +1,106 @@
+.reviews{
+  padding-top: 82px;
+  padding-bottom: 82px;
+}
+
+.reviews .swiper-slide{
+  height: auto;
+}
+
+.reviews-header{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-transform: uppercase;
+  color:rgba(250, 250, 250, 0.4);
+  margin-bottom: 32px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after,
+.swiper-button-next::before,
+.swiper-button-prev::before {
+  display: none;
+}
+
+#prev:hover,
+#next:hover {
+  border-color: #E0373F;
+}
+
+#prev:hover .icon,
+#next:hover .icon{
+  stroke: #E0373F;
+}
+
+.icon{
+  fill: none;
+  stroke: rgba(250, 250, 250, 1);
+  width: 24px !important;
+  height: 24px !important;
+}
+
+
+#prev,
+#next{
+  margin: 0;
+  position: static;
+  cursor: pointer; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(250, 250, 250, 1);
+
+  border: 1px solid rgba(250, 250, 250, 0.5);
+  border-radius: 60px;
+  
+  width: 52px;
+  height: 52px;
+}
+
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:12px;
+}
+
+#reviews-list{
+  margin-bottom: 32px;
+}
+
+#review{
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  border-radius: 20px;
+
+  width: 344px;
+  min-height: 302px;
+  padding: 32px 24px 32px 24px;
+}
+
+.reviewer-image{
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+
+.reviewer-name{
+  margin-bottom: 8px;
+}
+
+.error{
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  #prev,
+    #next{
+      width: 68px;
+      height: 68px;
+    }
+}

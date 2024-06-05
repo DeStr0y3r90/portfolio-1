@@ -1,0 +1,26 @@
+{
+  "name": "project-syntax-samurais-02",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/project-syntax-samurais-02/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "glob": "^10.3.12",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "accordion-js": "^3.3.4",
+    "axios": "^1.6.8",
+    "izitoast": "^1.4.0",
+    "modern-normalize": "^2.0.0",
+    "swiper": "^11.1.1",
+    "vite-plugin-full-reload": "^1.1.0",
+    "vite-plugin-html-inject": "^1.1.2"
+  },
+  "author": "Serhii Hudzenko <gudzsvmail@gmail.com>",
+  "license": "MIT"
+}
